@@ -7,7 +7,7 @@ const description = document.querySelector('.numbers');
 const sizes = document.querySelector('.bio');
 const head = document.querySelector('.head')
 
-container.addEventListener('mousemove', (e) => {
+container.addEventListener('touchmove', (e) => {
     // console.log(e.pageX, e.pageY);
     // let xAxis = window.innerWidth / 2 - e.pageX
     // let yAxis = window.innerWidth / 2 - e.pageY
@@ -16,7 +16,7 @@ container.addEventListener('mousemove', (e) => {
     card.style.transform = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`
   })
   
-  container.addEventListener('mouseenter', (e) => {
+  container.addEventListener('touchenter', (e) => {
     card.style.transition = 'none'
     head.style.transform = "translateZ(-50px)"
     title.style.transform = "translateZ(-150px)"
@@ -27,7 +27,7 @@ container.addEventListener('mousemove', (e) => {
     card.style.background = "linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75))"
   })
   
-  container.addEventListener('mouseleave', (e) => {
+  container.addEventListener('touchleave', (e) => {
     card.style.transform = `rotateY(0deg) rotateX(0deg)`
     title.style.transform = "translateZ(0px)"
     sneaker.style.transform = "translateZ(0px) rotateZ(0deg)"
