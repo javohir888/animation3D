@@ -21,6 +21,7 @@ container.addEventListener('mousemove', (e) => {
     head.style.transform = "translateZ(-50px)"
     title.style.transform = "translateZ(-150px)"
     sneaker.style.transform = "translateZ(150px) rotateZ(-360deg)"
+    sneaker.style.cssText = "width: 250px; height: 200px; border-radius: 5px;"
     description.style.transform = "translateZ(75px)"
     sizes.style.transform = "translateZ(50px)"
     purchase.style.transform = "translateZ(-175px)"
@@ -35,4 +36,5 @@ container.addEventListener('mousemove', (e) => {
     sizes.style.transform = "translateZ(0px)"
     purchase.style.transform = "translateZ(0px)"
     card.style.background = "none"
+    sneaker.style.cssText = "width: 80px; height: 80px; border-radius: 50%;"
   })
