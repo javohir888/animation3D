@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    
 }
 
 .ctn {
@@ -17,7 +18,7 @@ body {
     border-radius: 20px;
     /* height: 60vh; */
     font-family: sans-serif;
-    box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, .5);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3);
     transform-style: preserve-3d;
     transition: 0.5s ease;
 }
@@ -27,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    border-bottom: .8px solid rgba(0, 0, 0, .2);
+    border-bottom: .8px solid #bbb;
 }
 
 .gul {
@@ -90,7 +91,7 @@ body {
 }
 
 .hr {
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(92, 92, 92);
     opacity: .3;
     height: 15px;
 }
@@ -104,7 +105,7 @@ body {
 }
 
 .massege {
-    border: 1px solid rgba(0, 0, 0, .2);
+    border: 1px solid #bbb;
     font-size: 14px;
     width: 90px;
     height: 33px;
@@ -115,7 +116,7 @@ body {
 }
 
 .odam {
-    border: 1px solid rgba(0, 0, 0, .2);
+    border: 1px solid #bbb;
     font-size: 14px;
     width: 35px;
     height: 33px;
@@ -126,7 +127,7 @@ body {
 }
 
 .pastga {
-    border: 1px solid rgba(0, 0, 0, .2);
+    border: 1px solid #bbb;
     font-size: 14px;
     width: 35px;
     height: 33px;
@@ -139,5 +140,21 @@ body {
 .bio {
     font-size: 12px;
     transition: all 0.75s ease-out;
+}
+
+
+
+.ctn2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gulim {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 1.5s;
 }
 
